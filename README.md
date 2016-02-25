@@ -9,6 +9,12 @@ A bundle that adds SAML capabilities to your application using [simplesamlphp/sa
 Developed as part of the [SURFnet StepUp Gateway][2]
 
 ## Installation
+Add this to the repositories
+ {
+            "type" : "vcs",
+            "url" : "https://github.com/frrivero/Stepup-saml-bundle.git"
+ },
+php composer.phar require "frrivero/Stepup-saml-bundle:dev-sf23"
 
 * Add the package to your Composer file
   ```sh
